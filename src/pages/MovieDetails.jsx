@@ -13,5 +13,13 @@ const MovieDetails = () =>{
  if(!movie){
    return (<div>Loading...</div>);
  }
+
+ return(
+ <div>
+   <h1>{movie.title}</h1>
+   <p>Rating: {movie.vote_average}</p>
+   <h2>Cast</h2>
+ </div>
+ )
 }
 
